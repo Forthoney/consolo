@@ -1,13 +1,26 @@
 # consolo
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+**consolo** aims the recreate the rugged look of a terminal/console interface while maintaining legibility.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+It is forked from [jekyll-console-theme](https://github.com/b2a3e8/jekyll-theme-console) which, as far as I can tell, is no longer maintained.
+**consolo** refines the general look of the original theme and greatly improves on extensibility. 
+Parts of the installation guide also come from the original theme.
 
 ## Installation
+
+### Prerequisites
+
+If you're starting with Jekyll from scratch, follow the steps in [the Quickstart Guide](https://jekyllrb.com/docs/). Skip this if you already have an existing jekyll project.
+
+### Install as Remote theme for GitHub Pages
+
+1. Set `remote_theme` in your project's Jekyll `_config.yml` file:
+
+   ```yaml
+   remote_theme: Forthoney/consolo
+   ```
+
+### Install as Gem
 
 Add this line to your Jekyll site's `Gemfile`:
 
