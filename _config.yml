@@ -1,16 +1,15 @@
-title: consolo
-author:
-  email: 
-    personal: example@personal.com
-    school: example@school.edu
-  github_username: octocat
-header_pages:
-  - page.md
-  - another_page.md
-message: Write some cool footer message here
-style: dark
+# Sample _config.yml
 
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site, e.g. http://example.com
-
-google_analytics: G-18SSPS5483
+# title: consolo
+# author:
+#  name: Jay Doe
+#  email: 
+#    personal: example@personal.com
+#    school: example@school.edu
+#  github_username: octocat
+# header_pages:
+#  - page.md
+#  - another_page.md
+# message: Write some cool footer message here
+# style: dark
+# google_analytics: G-NNNNNNNNNN
