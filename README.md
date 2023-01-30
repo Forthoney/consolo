@@ -16,11 +16,11 @@ If you're starting with Jekyll from scratch, follow the steps in [the Quickstart
 
 ### Install as Remote theme for GitHub Pages
 
-1. Set `remote_theme` in your project's Jekyll `_config.yml` file:
+Set `remote_theme` in your project's Jekyll `_config.yml` file:
 
-   ```yaml
-   remote_theme: Forthoney/consolo
-   ```
+```yaml
+remote_theme: Forthoney/consolo
+```
 
 ### Install as Gem
 
