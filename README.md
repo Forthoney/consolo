@@ -6,7 +6,9 @@ It is forked from [jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-
 **consolo** refines the general look of the original theme, standardizes content, and greatly improves on extensibility. 
 Parts of the installation guide also come from the original theme.
 
-[Demo Website](https://forthoney.github.io/)
+[Live Demo](https://forthoney.github.io/)(aka my own blog)
+
+## Screenshots
 
 ## Installation
 
