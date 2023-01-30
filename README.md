@@ -2,7 +2,7 @@
 
 **consolo** aims the recreate the rugged look of a terminal/console interface while maintaining legibility.
 
-It is forked from [jekyll-console-theme](https://github.com/b2a3e8/jekyll-theme-console) which, as far as I can tell, is no longer maintained.
+It is forked from [jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console) which, as far as I can tell, is no longer maintained.
 **consolo** refines the general look of the original theme, standardizes content, and greatly improves on extensibility. 
 Parts of the installation guide also come from the original theme.
 
@@ -49,7 +49,7 @@ Or install it yourself as:
 ### _config.yml
 In addition to the [jekyll default configurations](https://jekyllrb.com/docs/configuration/default/), consolo allows you to display additional information through options.
 
-#### Options from jekyll-console-theme
+#### Options from jekyll-theme-console
 - `header_pages`: list of pages to be displayed in navbar
 - `google_analytics`: tracking id (no Google Analytics code will be loaded if you don't set this option)
 - `listen_for_clients_preferred_style`: boolean on whether to allow users to choose light or dark style based on their preferences ([see also](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme))
