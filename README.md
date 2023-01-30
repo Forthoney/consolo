@@ -10,6 +10,8 @@ Parts of the installation guide also come from the original theme.
 
 ## Screenshots
 
+![Collage of themes](theme_collage.png)
+
 ## Installation
 
 ### Prerequisites
