@@ -10,6 +10,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/Forthoney/consolo'
   spec.license       = 'MIT'
 
+  spec.metadata      = { "github_repo" => "ssh://github.com/Forthoney/consolo" }
+
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
     f.match(/^(assets|_layouts|_includes|_sass|LICENSE|README)/i)
   end
