@@ -49,13 +49,13 @@ In addition to the [jekyll default configurations](https://jekyllrb.com/docs/con
 
 #### Options from jekyll-console-theme
 - `header_pages`: list of pages to be displayed in navbar
-- `footer`: message at footer
 - `google_analytics`: tracking id (no Google Analytics code will be loaded if you don't set this option)
 - `listen_for_clients_preferred_style`: boolean on whether to allow users to choose light or dark style based on their preferences ([see also](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme))
 - `style`: predefined color scheme to be used for the site. Color scheme options are discussed more later.
 
 #### New from consolo
 - `title`: the title of the website (yes, this was missing from the original)
+- `footer`: message to display at footer. NO LONGER ACCEPTS RAW HTML
 - `author`: display various information about the author
    - `name`: author's name
    - `email`: author's email. Can nest multiple email with titles like
@@ -65,6 +65,18 @@ In addition to the [jekyll default configurations](https://jekyllrb.com/docs/con
       school: example@school.edu
    ```
    - `github_username`: author's github username (not the full url). Automatically creates a link to the author's github profile
+
+### Style/Color Scheme
+You can now more easily create your own color scheme. Under the `_sass/` directory, create a new file with the name `_<stylename>.scss` (e.g. `_red.scss`).
+I recommend using one of the existing color scheme's SCSS file as a starting point.
+
+Once you have customized the color scheme, go to the `assets/` directory and create a new file named `main-<stylename>.scss` with the following contents:
+```SCSS
+@import "<stylename>";
+@import "base";
+```
+You have successfully created a new style!
+To change to a style, simply set the `style` in `_config.yml` to <stylename>.
 
 ## Contributing
 
