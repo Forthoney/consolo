@@ -1,13 +1,26 @@
 # consolo
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+**consolo** aims the recreate the rugged look of a terminal/console interface while maintaining legibility.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+It is forked from [jekyll-console-theme](https://github.com/b2a3e8/jekyll-theme-console) which, as far as I can tell, is no longer maintained.
+**consolo** refines the general look of the original theme, standardizes content, and greatly improves on extensibility. 
+Parts of the installation guide also come from the original theme.
 
 ## Installation
+
+### Prerequisites
+
+If you're starting with Jekyll from scratch, follow the steps in [the Quickstart Guide](https://jekyllrb.com/docs/). Skip this if you already have an existing jekyll project.
+
+### Install as Remote theme for GitHub Pages
+
+1. Set `remote_theme` in your project's Jekyll `_config.yml` file:
+
+   ```yaml
+   remote_theme: Forthoney/consolo
+   ```
+
+### Install as Gem
 
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -31,11 +44,31 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### _config.yml
+In addition to the [jekyll default configurations](https://jekyllrb.com/docs/configuration/default/), consolo allows you to display additional information through options.
+
+#### Options from jekyll-console-theme
+- `header_pages`: list of pages to be displayed in navbar
+- `footer`: message at footer
+- `google_analytics`: tracking id (no Google Analytics code will be loaded if you don't set this option)
+- `listen_for_clients_preferred_style`: boolean on whether to allow users to choose light or dark style based on their preferences ([see also](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme))
+- `style`: predefined color scheme to be used for the site. Color scheme options are discussed more later.
+
+#### New from consolo
+- `title`: the title of the website (yes, this was missing from the original)
+- `author`: display various information about the author
+   - `name`: author's name
+   - `email`: author's email. Can nest multiple email with titles like
+   ```YAML
+   email:
+      personal: example@personal.com
+      school: example@school.edu
+   ```
+   - `github_username`: author's github username (not the full url). Automatically creates a link to the author's github profile
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Forthoney/consolo. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
