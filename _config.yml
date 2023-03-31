@@ -21,6 +21,5 @@ goatcounter_analytics: bustinbung
 sass:
   style: :compressed
 
-domain: bustinbung.com
 url: https://bustinbung.com
 baseurl: ""   
