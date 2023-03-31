@@ -6,7 +6,7 @@ tags: [edit, graphics]
 ---
 The end-of-year band banquet for the Centennial High School Band program.
 
-<a href="https://youtu.be/VXjvXE2Jr5E" target="_blank">Watch here</a>
+[Watch here](https://youtu.be/VXjvXE2Jr5E)
 
 <hr class="in-content">
 

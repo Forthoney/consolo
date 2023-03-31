@@ -5,7 +5,7 @@ tags: [direct, edit]
 ---
 A short film shot and edited in two weeks. The prompt was: **Everybody wants to rule the world**.
 
-<a href="https://youtu.be/Xh73ty_o2Vg" target="_blank">Watch here</a>
+[Watch here](https://youtu.be/Xh73ty_o2Vg)
 
 <hr>
 

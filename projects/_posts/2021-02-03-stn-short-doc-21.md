@@ -7,7 +7,7 @@ tags: [stn, edit, graphics]
 
 This was our entry to the STN 2021 Short Documentary contest: *Music is Essential*. The prompt was: **Essential Work**.
 
-<a href="https://youtu.be/2RrM6PfDyrw" target="_blank">Watch here</a>
+[Watch here](https://youtu.be/2RrM6PfDyrw)
 
 <hr class="in-content">
 

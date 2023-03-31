@@ -6,7 +6,7 @@ tags: [stn, edit]
 ---
 Our entry to the STN 2021 Spot Feature contest. The prompt was: **Knowledge Sharing**.
 
-<a href="https://youtu.be/b2wZILswE5c" target="_blank">Watch here</a>
+[Watch here](https://youtu.be/b2wZILswE5c)
 
 <hr class="in-content">
 

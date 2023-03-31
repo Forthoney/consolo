@@ -6,7 +6,7 @@ tags: [stn, edit]
 ---
 Our entry to the STN 2022 Short Documentary contest. The prompt was: **Through the Years**.
 
-<a href="https://youtu.be/4Xc3rivDbSM" target="_blank">Watch here</a>
+[Watch here](https://youtu.be/4Xc3rivDbSM)
 
 <hr>
 

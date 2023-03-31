@@ -6,7 +6,7 @@ tags: [edit, graphics]
 ---
 My entry to the Buckle Up Georgia Video Contest. Contestants were asked to create a 30 second PSA about safe driving.
 
-<a href="https://youtu.be/JnjeNQLfqD0" target="_blank">Watch here</a>
+[Watch here](https://youtu.be/JnjeNQLfqD0)
 
 <hr class="in-content">
 
