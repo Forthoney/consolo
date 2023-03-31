@@ -1,0 +1,26 @@
+hr {
+    border: none;
+    border-top: var(--border);
+}
+
+hr.in-content {
+    text-align: center;
+    border: 0;
+  
+    &:before { content: '//////////////////' }
+    &:after { content: attr(data-content) '//////////////////' }
+}
+
+li > ul {
+    padding-left: revert;
+}
+
+.tags {
+    float: right;
+}
+
+img[alt="Justin's headshot"] {
+    margin-right: 10px;
+    width: 30%;
+    float: left;
+}
