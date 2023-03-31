@@ -15,6 +15,9 @@
 
     {%- include footer.html -%}
 
+    {%- unless layout.override-link-target == true or page.override-link-target == true -%}
+      {%- include change-link-target.html -%}
+    {%- endunless -%}
     </div>
   </body>
 </html>

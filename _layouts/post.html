@@ -9,7 +9,17 @@ layout: default
     {% else %}
         <h2>{{ page.title }}</h2>
     {% endif %}
-    <span><i><time datetime="{{ page.date }}">{{ page.date | date: site.date-format }}</time></i></span><span class="tags"><a href="/tags/{{ page.tags }}">{{ page.tags }}</a></span>
+    <span>
+        <i>
+            <time datetime="{{ page.date }}">{{ page.date | date: site.date-format }}</time>
+        </i>
+    </span>
+    <span class="tags">
+        {% for tag in page.tags %}
+          <a href="/tag/{{tag}}" class="tag-link">{{tag}}</a>
+          {% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    </span>
     <br><br>
   
     {{ content }}
