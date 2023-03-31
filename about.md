@@ -10,7 +10,7 @@ Justin is an Eagle Scout, Zell Miller Scholar, and recipient of the Patrick S. G
  
 Post-graduation, Justin hopes to work in the film and media industry in either production or post-production to help share people's stories with a wider audience. If you'd like to see some of their work, feel free to browse his projects using the navigation bar above.
  
-In his free time, Justin enjoys playing video games, reading, listening to music, and getting bubble tea.
+In their free time, Justin enjoys playing video games, reading, listening to music, and getting bubble tea.
 
 <hr>
 
