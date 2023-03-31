@@ -25,6 +25,8 @@ img[alt="Justin's headshot"] {
     float: left;
 }
 
-footer .box {
-    min-width: none;
+footer {
+    .box {
+        min-width: 0px !important;
+    }
 }
