@@ -1,15 +1,22 @@
-# Sample _config.yml
-
 # title: consolo
-# author:
+
+author:
 #  name: Jay Doe
-#  email: 
-#    personal: example@personal.com
-#    school: example@school.edu
-#  github_username: octocat
-# header_pages:
-#  - page.md
-#  - another_page.md
-# message: Write some cool footer message here
-# style: dark
+  email: justin@bustinbung.com
+  github_username: bustinbung
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - blog.md
+footer_message: '&lt;/&gt; with &lt;3, 2023'
+style: dark
+date-format: "%Y-%m-%d"
+permalink: /:categories/:title
+
 # google_analytics: G-NNNNNNNNNN
+goatcounter_analytics: bustinbung
+
+sass:
+  style: :compressed
