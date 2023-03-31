@@ -5,20 +5,16 @@
     {%- endif %}
 
     <li>
-      email[
-      {% for address in site.author.email %}
-      <a class="u-email" href="mailto:{{ address[1] }}">{{ address[0] }}</a>        
-      {% endfor %}
-      ]
+      <a href="mailto:{{ site.author.email }}">email</a>
     </li>
 
 
     {% if site.author.github_username -%}
-    <li><a href="https://github.com/{{ site.author.github_username }}">
+    <li><a href="https://github.com/{{ site.author.github_username }}" target="_blank">
       github        
     </a></li>
     {%- endif %}
   </ul>
 
-  <p class="box left"><i>{{ site.message }}</i></p>
+  <p class="box left"><i>{{ site.footer_message }}</i></p>
 </footer>
