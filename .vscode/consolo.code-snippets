@@ -16,10 +16,10 @@
 	// 	"description": "Log output to console"
 	// }
 
-	"Create YouTube watch link": {
+	"Create YouTube link": {
 		"prefix": "yt-link",
 		"body": [
-			"<a href=\"https://youtu.be/${1:video-id}\" target=\"_blank\">Watch here</a>",
+			"<a href=\"https://youtu.be/${1:video-id}\" target=\"_blank\">${2:text}</a>",
 		]
 	},
 	"Post front matter": {
@@ -33,5 +33,11 @@
 			"---",
 			"$0"
 		]
-	}
+	},
+	"Create self targeting link": {
+		"prefix": "self-link",
+		"body": [
+			"<a href=\"${1:link}\" target=\"_self\">${2:text}</a>",
+		]
+	},
 }
