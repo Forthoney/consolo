@@ -5,7 +5,7 @@
 // variables
 $base-font-family:     'Source Code Pro', monospace !default;
 $base-font-size:       14px !default;
-$mobile-font-size:     12px !default;
+$mobile-font-size:     16px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
 $container-max-width:  700px !default;
@@ -16,9 +16,9 @@ html {
     font-size: $base-font-size;
     font-family: $base-font-family;  
 
-    @media only screen and (max-device-width: 500px) {
-        font-size: $mobile-font-size
-   }
+    @media all and (max-width: 500px) {
+        font-size: $mobile-font-size;
+    }
 }
 
 body { 
