@@ -12,9 +12,14 @@ Post-graduation, Justin hopes to work in the film and media industry in either p
  
 In their free time, Justin enjoys playing video games, reading, listening to music, and getting bubble tea.
 
+<hr class="in-content">
+
+## resume
+Download Justin's resume here: [(Jung_Justin_Resume-v2.pdf)](/assets/pdf/Jung_Justin_Resume-v2.pdf)
+
 <hr>
 
-### online presence:
+## online presence:
 + [email](mailto:justin@bustinbung.com)
 + [github](https://github.com/bustinbung)
 + [instagram](https://instagram.com/bustinbung)
