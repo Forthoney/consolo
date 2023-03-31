@@ -5,4 +5,3 @@ permalink: /projects
 category-filter: projects
 ---
 ## projects
-
