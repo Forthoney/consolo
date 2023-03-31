@@ -2,4 +2,15 @@
 layout: default
 ---
 
-{{ content }}
+<article>
+    <a href="javascript:history.back()" class="back-link">../</a>
+    {% if page.long-title %}
+        <h2>{{ page.long-title }}</h2>
+    {% else %}
+        <h2>{{ page.title }}</h2>
+    {% endif %}
+    <span><i><time datetime="{{ page.date }}">{{ page.date | date: site.date-format }}</time></i></span><span class="tags"><a href="/tags/{{ page.tags }}">{{ page.tags }}</a></span>
+    <br><br>
+  
+    {{ content }}
+</article>
