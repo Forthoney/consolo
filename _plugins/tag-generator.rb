@@ -12,6 +12,6 @@ end
 def generate_tag_file(tag)
     # generate tag file
     File.open("tag/#{tag}.md", "wb") do |file|
-    file << "---\nlayout: tag-archive\ntag-filter: ##{tag}\n---\n# #{tag}"
+    file << "---\nlayout: tag-archive\ntag-filter: #{tag}\n---\n## #{tag}"
     end
 end
