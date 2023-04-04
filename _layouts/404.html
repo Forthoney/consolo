@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="error-body">
+    <main class="page-content error-content" aria-label="content">
+      <div class="wrapper error-wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include mobile-changes.html %}
+    </div>
+  </body>
+</html>
