@@ -23,4 +23,13 @@ sass:
   style: :compressed
 
 url: https://bustinbung.com
-baseurl: ""   
+baseurl: ""
+exclude: [
+  LICENSE.txt,
+  README.md,
+  Gemfile,
+  Gemfile.lock,
+  consolo.gemspec,
+]
+include: [
+]
