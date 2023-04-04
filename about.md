@@ -15,7 +15,7 @@ In their free time, Justin enjoys playing video games, reading, listening to mus
 <hr class="in-content">
 
 ## resume
-Download Justin's resume here: [(Jung_Justin_Resume-v2.pdf)](/assets/pdf/Jung_Justin_Resume-v2.pdf)
+Download Justin's resume here: [(Jung_Justin_Resume-v3.pdf)](/assets/pdf/Jung_Justin_Resume-v3.pdf)
 
 <hr>
 
