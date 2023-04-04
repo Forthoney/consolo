@@ -9,6 +9,7 @@ header_pages:
   - index.md
   - about.md
   - projects.md
+  - repos.md
   - blog.md
 footer_message: '&lt;/&gt; with &lt;3, 2023'
 style: dark
