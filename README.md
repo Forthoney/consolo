@@ -1,35 +1,38 @@
-# bustinbung.com
+# create-svelte
 
-My personal webpage and blog.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Theme information
+## Creating a project
 
-I'm using a modified version of [**consolo**](https://github.com/Forthoney/consolo). It combines parts of **consolo** with the last theme I used, [**no-style-please**](https://github.com/riggraz/no-style-please).
+If you're seeing this, you've probably already done this step. Congrats!
 
-## _config.yml
-Stores configuration settings and global variables for the site.
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-### Options
-[Jekyll default configurations](https://jekyllrb.com/docs/configuration/default/) apply.
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-#### Options from `jekyll-theme-console`
-- `header_pages`: list of pages to be displayed in navbar
-- `google_analytics`: tracking id (no Google Analytics code will be loaded if you don't set this option)
-- `listen_for_clients_preferred_style`: boolean on whether to allow users to choose light or dark style based on their preferences ([see also](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme))
-- `style`: predefined color scheme to be used for the site. Color scheme options are discussed more later.
+## Developing
 
-#### New from consolo
-- `title`: the title of the website (yes, this was missing from the original)
-- `footer`: message to display at footer. NO LONGER ACCEPTS RAW HTML
-- `author`: display various information about the author
-   - `name`: author's name
-   - `email`: author's email. ~~Can nest multiple email with titles~~
-   - `github_username`: author's github username (not the full url). Automatically creates a link to the author's github profile
-   
-#### Modifiications
-- `goatcounter-analytics`: for people who prefer goatcounter over Google Analytics. Not loaded if not set.
-- `date-format`: sets the date format
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## License
+```bash
+npm run dev
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
