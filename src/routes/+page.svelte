@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<style>
+    .center {
+        text-align: center;
+    }
+</style>
+
+<h2 class="center">justin jung // a student of media and music</h2><br>
+<p class="center">hi there, and welcome to my site!</p>
