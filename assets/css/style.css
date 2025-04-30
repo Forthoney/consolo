@@ -4,7 +4,16 @@
 :root {
   --primary-color: black;
   --background-color: white;
+}
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: white;
+    --background-color: black;
+  }
+}
+
+:root {
   --border: dashed 1px var(--primary-color);
   --text-color: var(--primary-color);
 }
