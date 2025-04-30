@@ -1,15 +1,15 @@
 # Sample _config.yml
 
-# title: consolo
-# author:
-#  name: Jay Doe
-#  email: 
-#    personal: example@personal.com
-#    school: example@school.edu
-#  github_username: octocat
-# header_pages:
-#  - page.md
-#  - another_page.md
-# message: Write some cool footer message here
-# style: dark
-# google_analytics: G-NNNNNNNNNN
+title: consolo
+author:
+ name: Jay Doe
+ email: 
+   personal: example@personal.com
+   school: example@school.edu
+ github_username: octocat
+header_pages:
+ - page.md
+ - another_page.md
+message: Write some cool footer message here
+style: dark
+google_analytics: G-NNNNNNNNNN
