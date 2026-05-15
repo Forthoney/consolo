@@ -11,12 +11,17 @@ layout: default
 </div>
 
 
-{%- if site.posts.size > 0 -%}
+{%- assign home_source = site.home_source | default: "posts" -%}
+{%- assign home_items = site[home_source] -%}
+{%- if home_items and home_items.size > 0 -%}
   <ul>
-    {%- for post in site.posts -%}
+    {%- for item in home_items -%}
     <li>
+      {%- if item.date -%}
       {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      [ {{ item.date | date: date_format }} ]
+      {%- endif -%}
+      <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
     </li>
     {%- endfor -%}
   </ul>

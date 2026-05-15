@@ -12,4 +12,5 @@ header_pages:
  - another_page.md
 message: Write some cool footer message here
 style: dark
+home_source: posts
 google_analytics: G-NNNNNNNNNN

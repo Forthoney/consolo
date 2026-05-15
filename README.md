@@ -62,6 +62,7 @@ In addition to the [jekyll default configurations](https://jekyllrb.com/docs/con
 #### New from consolo
 - `title`: the title of the website (yes, this was missing from the original)
 - `footer`: message to display at footer. NO LONGER ACCEPTS RAW HTML
+- `home_source`: array source to display on the homepage. Defaults to `posts`; set to `pages` to list site pages instead
 - `author`: display various information about the author
    - `name`: author's name
    - `email`: author's email. Can nest multiple email with titles like
